@@ -90,16 +90,20 @@ body.body--load {
   background-color: #fff;
 }
 
-input[type=file] {
+.input-1 {
   cursor: pointer;
   background-color: yellowgreen;
 }
-input[type=file]::file-selector-button {
+.input-1::file-selector-button {
   padding: 0.5em 0.9em;
   color: white;
   background-color: dodgerblue;
   border: 0;
   cursor: pointer;
+}
+.input-2 {
+  cursor: pointer;
+  background-color: dodgerblue;
 }
 
 /*# sourceMappingURL=style.css.map */
